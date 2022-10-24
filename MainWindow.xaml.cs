@@ -20,7 +20,7 @@ namespace SaveBase64FileTool
 
         private void BtnClear_Click(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
+            txtBase64.Text = "";
         }
 
         private void BtnSave_Click(object sender, RoutedEventArgs e)
